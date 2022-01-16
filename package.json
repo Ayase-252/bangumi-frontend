@@ -9,6 +9,7 @@
     "dev:ssr": "pnpm server dev",
     "lint": "eslint ./packages --ext .js,jsx,ts,tsx --ignore-pattern dist",
     "lint:fix": "pnpm lint -- --fix",
+    "lint:less": "pnpm stylelint \"package/**/*.less\"",
     "server": "pnpm --filter=@bangumi/server",
     "test": "jest",
     "website": "pnpm --filter=@bangumi/website"
@@ -32,8 +33,11 @@
     "eslint-plugin-react": "^7.28.0",
     "jest": "^27.4.6",
     "jest-transform-stub": "^2.0.0",
+    "postcss-less": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0",
     "typescript": "^4.4.4"
   }
 }
