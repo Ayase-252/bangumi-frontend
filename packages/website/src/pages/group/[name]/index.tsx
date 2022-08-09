@@ -27,6 +27,9 @@ const GroupHome: React.FC = () => {
   const tabs = [{
     key: 'index',
     label: '小组概览'
+  }, {
+    key: 'members',
+    label: '小组成员'
   }]
 
   const renderRecentTopics = (): ReactElement | null => {

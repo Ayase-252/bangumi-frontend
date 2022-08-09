@@ -100,19 +100,21 @@ export interface AvatarSet {
   small: string
 }
 
+export interface Member {
+  joined_at: string
+  avatar: AvatarSet
+  username: string
+  nickname: string
+  id: number
+}
+
 export interface Group {
   title: string
   created_at: string
   description: string
   total_members: number
   icon: string
-  new_members: Array<{
-    joined_at: string
-    avatar: AvatarSet
-    username: string
-    nickname: string
-    id: number
-  }>
+  new_members: Member[]
 }
 
 export interface Topic {
