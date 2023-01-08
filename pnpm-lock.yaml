@@ -208,6 +208,7 @@ importers:
       '@bangumi/icons': workspace:0.0.0
       '@bangumi/utils': workspace:0.0.0
       '@marsidev/react-turnstile': ^0.0.5
+      '@playwright/test': ^1.29.2
       '@testing-library/react': ^13.4.0
       '@types/lodash': ^4.14.191
       '@types/react': ^18.0.26
@@ -248,6 +249,7 @@ importers:
       '@bangumi/design': link:../design
       '@bangumi/icons': link:../icons
       '@bangumi/utils': link:../utils
+      '@playwright/test': 1.29.2
       '@types/lodash': 4.14.191
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.10
@@ -4100,6 +4102,15 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.4.1
+    dev: true
+
+  /@playwright/test/1.29.2:
+    resolution: {integrity: sha512-+3/GPwOgcoF0xLz/opTnahel1/y42PdcgZ4hs+BZGIUjtmEFSXGg+nFoaH3NSmuc7a6GSFwXDJ5L7VXpqzigNg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.11.18
+      playwright-core: 1.29.2
     dev: true
 
   /@pmmmwh/react-refresh-webpack-plugin/0.5.10_ohj47mxwagpoxvu7nhhwxzphqm:
@@ -14602,6 +14613,12 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       find-up: 5.0.0
+    dev: true
+
+  /playwright-core/1.29.2:
+    resolution: {integrity: sha512-94QXm4PMgFoHAhlCuoWyaBYKb92yOcGVHdQLoxQ7Wjlc7Flg4aC/jbFW7xMR52OfXMVkWicue4WXE7QEegbIRA==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /pnp-webpack-plugin/1.6.4_typescript@4.9.4:

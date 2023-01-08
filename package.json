@@ -22,6 +22,7 @@
     "server": "pnpm --filter=@bangumi/server",
     "client": "pnpm --filter=@bangumi/client",
     "test": "jest",
+    "test:e2e": "pnpm website test:e2e",
     "website": "pnpm --filter=@bangumi/website",
     "lint-staged": "lint-staged -q",
     "type-check": "tsc --noEmit"
