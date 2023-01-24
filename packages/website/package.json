@@ -6,7 +6,8 @@
     "build": "tsc --noEmit && vite build",
     "dev": "vite --host 127.0.0.1",
     "preview": "pnpm run build --mode stage && vite preview",
-    "test:e2e": "pnpx playwright test"
+    "test:e2e": "playwright test",
+    "test:update": "cross-env E2E_UPDATE_HAR=1 playwright --update-snapshots"
   },
   "dependencies": {
     "@marsidev/react-turnstile": "^0.0.5",

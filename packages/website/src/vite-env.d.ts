@@ -4,4 +4,5 @@
 
 interface ImportMetaEnv {
   readonly VITE_TURNSTILE_SITE_KEY: string;
+  readonly E2E_UPDATE_HAR: string;
 }
