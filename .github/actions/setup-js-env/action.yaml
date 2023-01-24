@@ -27,3 +27,6 @@ runs:
     - name: Install Dependencies
       run: pnpm install
       shell: bash
+
+    - name: Install Playwright Browsers
+      run: pnpm dlx playwright install --with-deps
